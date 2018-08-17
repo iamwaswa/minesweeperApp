@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="welcome_textView_content">Welcome to Minesweeper</string>
+    <string name="authors_textView_content"><![CDATA[By Safari & Waswa]]></string>
+    <string name="start_game_btn_content">Play!</string>
+
+    <string name="welcome_activity_subtitle">Welcome</string>
+
+    <string name="game_activity_subtitle">GamePlay</string>
+    <string name="num_mines_found_textView_content">Number of mines found: %1$d </string>
+    <string name="num_mines_left_textView_content">Number of mines left: %1$d</string>
+    <string name="game_over_title">GAME OVER!</string>
+    <string name="game_over_message">You found all the mines!</string>
+    <string name="ok_positive_btn_content">OK</string>
+</resources>

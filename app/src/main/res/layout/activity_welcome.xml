@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.WelcomeActivity">
+
+    <include
+        android:id="@+id/welcome_activity_toolbar"
+        layout="@layout/custom_toolbar" />
+
+    <TextView
+        android:id="@+id/welcome_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome_textView_content"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/authors_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/welcome_textView"
+        android:gravity="center_horizontal"
+        android:text="@string/authors_textView_content"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/start_game_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/authors_textView"
+        android:layout_centerHorizontal="true"
+        android:text="@string/start_game_btn_content"
+        android:textSize="18sp"
+        android:theme="@style/ButtonTheme" />
+
+</RelativeLayout>
